@@ -42,7 +42,7 @@ async def on_message(message):
         await message.channel.send(msg)
         
     if any(keyword in message.content.lower() for keyword in keywords7):
-        msg = '{0.author.mention} Wishing you a very happy and prosperous Onam!! '.format(message)
+        msg = '{0.author.mention} Wishing you a very happy and prosperous Onam! '.format(message)
         await message.channel.send(msg) 
 
 
