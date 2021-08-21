@@ -25,4 +25,4 @@ async def on_message(message):
         msg = 'Hey {0.author.mention} check out MrGamerRaj's past livestreams <#553394919625195570>! '.format(message)        
         await message.channel.send(msg)
 
-client.run('ODc4MzE2MjUxODc5OTk3NDkw.YR_ZwA.1eiB1FJBzgrya3bIpPD4qXb-6Fo')
+client.run('ODc4NDY0ODUwODQ0NTg1OTk0.YSBkJQ.9Ebh1g8Z4gvmvBGH5LJwThTMIK8')
